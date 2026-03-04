@@ -6,12 +6,17 @@ Questo progetto modella la struttura operativa di **Sunnee**, un brand ipotetico
 
 L'obiettivo del progetto è dimostrare come **TypeScript** possa essere utilizzato per modellare un sistema software attraverso l'uso di:
 
-- tipi personalizzati
-- interfacce
-- classi
-- interazioni tra oggetti
+* tipi personalizzati
+* interfacce
+* classi
+* interazioni tra oggetti
 
 Il sistema simula l'interazione tra **clienti**, **prodotti beachwear** e **processi di produzione sostenibile**.
+
+### 🔗 Demo online
+
+Puoi vedere il progetto in esecuzione su CodePen:
+https://codepen.io/SamFio00/pen/zxKraoO
 
 ---
 
@@ -20,18 +25,21 @@ Il sistema simula l'interazione tra **clienti**, **prodotti beachwear** e **proc
 Il progetto è sviluppato interamente in **TypeScript** e comprende tre principali entità:
 
 ### Prodotto
+
 Rappresenta un articolo di beachwear prodotto dal brand.
 
 Proprietà principali:
-- tipo
-- taglia
-- colore
-- stato
-- id univoco
+
+* tipo
+* taglia
+* colore
+* stato
+* id univoco
 
 Metodo:
-- `assegnaCliente(cliente)`  
-assegna il prodotto a un cliente e cambia lo stato del prodotto in **ordinato**.
+
+* `assegnaCliente(cliente)`
+  assegna il prodotto a un cliente e cambia lo stato del prodotto in **ordinato**.
 
 ---
 
@@ -40,14 +48,16 @@ assegna il prodotto a un cliente e cambia lo stato del prodotto in **ordinato**.
 Rappresenta un cliente del brand.
 
 Proprietà principali:
-- nome
-- cognome
-- email
-- metodo di pagamento
+
+* nome
+* cognome
+* email
+* metodo di pagamento
 
 Metodo:
-- `ordinaProdotto(prodotto)`  
-permette al cliente di ordinare un prodotto se questo è **disponibile**.
+
+* `ordinaProdotto(prodotto)`
+  permette al cliente di ordinare un prodotto se questo è **disponibile**.
 
 ---
 
@@ -56,21 +66,23 @@ permette al cliente di ordinare un prodotto se questo è **disponibile**.
 Rappresenta un processo produttivo sostenibile utilizzato dal brand.
 
 Proprietà principali:
-- nome del processo
-- descrizione
-- lista dei prodotti in produzione
+
+* nome del processo
+* descrizione
+* lista dei prodotti in produzione
 
 Metodo:
-- `aggiungiProdotto(prodotto)`  
-aggiunge un prodotto al processo produttivo.
+
+* `aggiungiProdotto(prodotto)`
+  aggiunge un prodotto al processo produttivo.
 
 ---
 
 # Tecnologie utilizzate
 
-- **TypeScript**
-- **JavaScript (compilato da TypeScript)**
-- **Node.js** per eseguire il codice
+* **TypeScript**
+* **JavaScript (compilato da TypeScript)**
+* **Node.js** per eseguire il codice
 
 ---
 
@@ -78,9 +90,9 @@ aggiunge un prodotto al processo produttivo.
 
 Nel codice vengono creati:
 
-- 3 prodotti
-- 2 clienti
-- 1 processo di produzione
+* 3 prodotti
+* 2 clienti
+* 1 processo di produzione
 
 Successivamente:
 
@@ -94,15 +106,16 @@ Successivamente:
 
 Dimostrare come **TypeScript** possa essere utilizzato per modellare un sistema reale attraverso:
 
-- tipizzazione forte
-- programmazione orientata agli oggetti
-- separazione delle responsabilità tra le classi
+* tipizzazione forte
+* programmazione orientata agli oggetti
+* separazione delle responsabilità tra le classi
 
 ---
 
 # Autore
 
-Samuele Fiorini  
-- GitHub: https://github.com/SamFio00  
-- LinkedIn: https://www.linkedin.com/in/samuele-fiorini-38bba9325  
-- Instagram: https://www.instagram.com/fiorini_sam_00
+Samuele Fiorini
+
+* GitHub: https://github.com/SamFio00
+* LinkedIn: https://www.linkedin.com/in/samuele-fiorini-38bba9325
+* Instagram: https://www.instagram.com/fiorini_sam_00
