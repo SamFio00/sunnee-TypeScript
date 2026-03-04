@@ -85,5 +85,13 @@ const prodotto3 = new Prodotto("cappello", "S", "giallo", "disponibile", "SUN003
 const cliente1 = new Cliente("Mario", "Rossi", "Mrossi@gmail.com", "carta");
 const cliente2 = new Cliente("Gino", "Panevino", "gpane@gmail.com", "bonifico");
 
+const processo1 = new ProcessoProduzione("Riciclo plastica marina", "Trasformazione di reti da pesca dismesse in filato tessile sostenibile per la produzione di costumi da bagno e accessori.");
+
+processo1.aggiungiProdotto(prodotto1);
+processo1.aggiungiProdotto(prodotto2);
+processo1.aggiungiProdotto(prodotto3);
+
+cliente1.ordinaProdotto(prodotto1);
+cliente2.ordinaProdotto(prodotto2);
 
 export{}
